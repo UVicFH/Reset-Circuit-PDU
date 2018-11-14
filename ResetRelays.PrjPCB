@@ -47,8 +47,8 @@ AnnotateScope=All
 AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -120,7 +120,41 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IRTGAVPW
+DocumentUniqueId=FUEOBDWM
+
+[Document6]
+DocumentPath=0431600104.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=REOAHCJQ
+
+[Document7]
+DocumentPath=0431600104.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OQTCWJEW
 
 [Configuration1]
 Name=Sources
@@ -247,7 +281,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=HP Officejet J4680 Series
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -1078,13 +1112,13 @@ ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Candunio.IntLib
 ComponentDesignItemID0=Cap Semi
 ComponentSymbolReference0=Cap Semi
-ComponentUpdate0=0
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Candunio.IntLib
 ComponentDesignItemID1=Diode
 ComponentSymbolReference1=Diode
-ComponentUpdate1=0
+ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=RESET circuit.SCHLIB
@@ -1240,33 +1274,36 @@ ParameterUpdate62=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=C2512
+ModelName0=55.13
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CAPC3216X170N
+ModelName1=C2512
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=DO-220AA
+ModelName2=CAPC3216X170N
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=DPST switch
+ModelName3=DO-220AA
 ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=DPST switch
+ModelUpdate4=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType4=SI
-ModelName4=Cap Semi
-ModelUpdate4=1
 ModelType5=SI
-ModelName5=Diode
+ModelName5=Cap Semi
 ModelUpdate5=1
+ModelType6=SI
+ModelName6=Diode
+ModelUpdate6=1
 ModelTypeGroup2=SIM
 ModelTypeUpdate2=1
-ModelType6=SIM
-ModelName6=CAP
-ModelUpdate6=1
 ModelType7=SIM
-ModelName7=DIODE
+ModelName7=CAP
 ModelUpdate7=1
+ModelType8=SIM
+ModelName8=DIODE
+ModelUpdate8=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1280,4 +1317,7 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 

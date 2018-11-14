@@ -1,0 +1,6 @@
+Added Component: Designator=S1(DPST switch)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetD1_2 Pin=S1-1
+Added Pin To Net: NetName=NetD2_2 Pin=S1-2
+Added Pin To Net: NetName=NetC2_2 Pin=S1-4
+Added Pin To Net: NetName=NetC1_2 Pin=S1-6
